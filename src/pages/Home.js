@@ -74,7 +74,7 @@ const Home = () => {
             </Col>
             <Col md={6}>
               <div className="text-content">
-                <h2 className="text-center mt-5 mb-4">Your Pet Adoption Journey With ThePetNest</h2>
+                <h2 className="text-center mt-5 mb-4">Your Pet Adoption Journey With ThePetShop</h2>
                 <div className="mt-4">
                   <h3>Search Pet</h3>
                   <p>Adopt a dog or cat who's right for you. Simply enter your city above to start your search.</p>
