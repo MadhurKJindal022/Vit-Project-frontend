@@ -1,0 +1,124 @@
+/* SignUp.css */
+
+.signup-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+  background-color: #f0f4f8;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.image-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-right: 20px;
+}
+
+.pet-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.image-text {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 18px;
+  color: #007bff;
+  font-weight: bold;
+  background-color: #e6f7ff;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.image-text2 {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 18px;
+  color: #051908;
+  font-weight: bold;
+  background-color: #d1d591;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.additional-text {
+  margin-top: 20px;
+  text-align: left;
+  font-size: 16px;
+  color: #555;
+  font-style: italic;
+  background-color: #f9f9f9;
+  padding: 10px;
+  border-left: 4px solid #007bff;
+  border-radius: 8px;
+}
+
+.form-container {
+  flex: 1;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: #f9f9f9;
+}
+
+label.checkbox-container {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  font-size: 16px;
+  color: #333;
+}
+
+label.checkbox-container input {
+  margin-right: 10px;
+}
+
+input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  margin: 20px 0;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #007bff;
+  outline: none;
+}

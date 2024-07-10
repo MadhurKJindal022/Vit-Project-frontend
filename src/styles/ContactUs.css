@@ -1,0 +1,59 @@
+.contact-us-container {
+    display: flex;
+    justify-content: space-around; /* Distribute content evenly */
+    align-items: flex-start; /* Align items to the top */
+    background-image: url('../Assets/cbkd.jpg'); /* Background image path */
+    background-size: cover;
+    background-position: center;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-form {
+    flex: 1; /* Take up remaining space */
+    max-width: 600px; /* Limit maximum width for form */
+    margin-right: 20px; /* Margin to separate from cards */
+  }
+  
+  .contact-form h2 {
+    text-align: left;
+    color: #000; /* Black text color */
+  }
+  
+  .contact-cards {
+    display: flex;
+    flex-wrap: wrap; /* Allow cards to wrap if space is insufficient */
+    justify-content: space-around; /* Distribute cards evenly */
+    margin-top: 20px; /* Margin to separate from form */
+  }
+  
+  .card {
+    width: 200px; /* Adjust card width as needed */
+    height: 200px; /* Adjust card height as needed */
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 50px;
+  }
+  
+  .card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  .about-us {
+    flex: 1; /* Take up remaining space */
+    max-width: 600px; /* Limit maximum width for about us section */
+  }
+  
+  .about-us h2 {
+    text-align: left;
+    color: #000; /* Black text color */
+  }
+  
+  .about-us p {
+    text-align: justify; /* Justify text */
+    color: #000; /* Black text color */
+  }

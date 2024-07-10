@@ -1,0 +1,80 @@
+.login-page {
+  background-image: url('../Assets/bln.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh; /* Adjust height as needed */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-container {
+    margin-top: 50px;
+    width: 300px;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  .text {
+    font-weight: bold;
+  }
+  
+  .underline {
+    height: 2px;
+    width: 50px;
+    background-color: #333;
+    margin: 0 auto;
+  }
+  
+  .inputs {
+    margin-bottom: 20px;
+  }
+  
+  .input {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .input img {
+    width: 20px;
+    margin-right: 10px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: calc(100% - 30px);
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .submit-container {
+    text-align: center;
+  }
+  
+  .submit {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit:hover {
+    background-color: #0056b3;
+  }
+  
