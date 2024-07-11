@@ -9,7 +9,7 @@ function View() {
 
   useEffect(() => {
     axios
-      .get("http://localhost:4000/users/getusers")
+      .get("https://vit-project-backend-5.onrender.com/users/getusers")
       .then((res) => {
         console.log(res.data);
         setUsers(res.data);
@@ -21,7 +21,7 @@ function View() {
 
   const deleteData = (id) => {
     axios
-      .delete("http://localhost:4000/users/deleteuser/" + id)
+      .delete("https://vit-project-backend-5.onrender.com/users/deleteuser/" + id)
       .then((res) => {
         console.log(res.data);
         if (res.status === 200) {
@@ -45,7 +45,7 @@ function View() {
   const handleUpdateSubmit = (event) => {
   event.preventDefault();
   axios
-    .put("http://localhost:4000/users/updateuser/" + selectedUser._id, selectedUser)
+    .put("https://vit-project-backend-5.onrender.com/users/updateuser/" + selectedUser._id, selectedUser)
     .then((res) => {
       console.log(res.data);
       if (res.status === 200) {

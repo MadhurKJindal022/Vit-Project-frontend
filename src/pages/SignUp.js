@@ -17,7 +17,7 @@ function SignUp() {
   const handleSubmit = (event) => {
     event.preventDefault();
     let inputObj = { username, email, password, phone, petId, petName, adoptionConfirm, address };
-    let url = "http://localhost:4000/users/createuser";
+    let url = "https://vit-project-backend-5.onrender.com/users/createuser";
     axios
       .post(url, inputObj)
       .then((res) => {
